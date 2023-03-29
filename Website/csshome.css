@@ -1,0 +1,88 @@
+html {
+    /*backround and allighnment*/
+    background: url(map.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.button {
+    /*main button*/
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #2D2B2F; /* Gray */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.medium-btn {
+    /*button size medium*/
+    width: 500px;
+    height: 50px;
+}
+
+.small-btn {
+    /*button size small*/
+    width: 200px;
+    height: 50px;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 175px;
+}
+
+.boxed {
+    /*header box*/
+    height: 100px;
+    width: 1525px;
+    padding: 10px;
+    background-color: #5F9EA0;
+    color: #FAEBD7;
+    margin: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    position: absolute;
+    top: -20px;
+}
+.button1 {
+    /*home button style*/
+    background-color: #DEB887;
+    padding: 15px 32px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    position: absolute;
+    top: 025px;
+}
+.boxtext {
+    /*info box*/
+    width: 400px;
+    border: none;
+    padding: 50px;
+    margin: 0px;
+    background-color: #5F9EA0;
+    color: #FFF8DC;
+    text-align: left;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top: 700px;
+}
